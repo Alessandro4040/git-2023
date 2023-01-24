@@ -1,0 +1,6 @@
+#ex 8
+print('ola vamos fazer o desafio 8 ')
+n1=int(input('digite a distancia em metros para ser convertida em centimetros e milimetros : '))
+c=(n1*100)
+m=(n1*1000)
+print('\033[1;33mpronto vc digitou {},em centimetros é {} e em milimetros é {} .'.format(n1,c,m))
